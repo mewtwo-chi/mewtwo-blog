@@ -78,3 +78,7 @@ search:
   field: post
   format: html
   limit: 10000
+
+# Admin
+admin:
+  deployCommand: './hexo-deploy.sh'

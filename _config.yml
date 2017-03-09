@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: mewtwo
-subtitle: blog
-description: mewtwo blog
-author: John Doe
-language:
+title: mewtwo #填写网站名，会在标签页上显示
+subtitle: blog #副标题，网站名下面
+description: mewtwo blog #网站描述，便于搜索引擎用关键词检索
+author: John Doe #作者
+language: zh-CN  #语言，中文
 timezone:
 
 # URL
@@ -63,7 +63,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: hexo-theme-next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

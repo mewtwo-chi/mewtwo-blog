@@ -6,9 +6,9 @@
     "version": "3.2.2"
   },
   "scripts": {
-    "deploy": "hexo c && hexo g && hexo d",
-    "build": "hexo g",
-    "dev": "hexo c && hexo g && hexo s -d"
+    "deploy": "hexo clean && hexo g && hexo d",
+    "build": "hexo clean && hexo g",
+    "dev": "hexo clean && hexo g && hexo s -d"
   },
   "dependencies": {
     "hexo": "^3.2.0",
